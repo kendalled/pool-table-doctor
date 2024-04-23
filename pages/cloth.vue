@@ -1,5 +1,5 @@
 <template>
-  <div class="styleMe">
+  <div>
     <ClothPicker />
   </div>
 </template>

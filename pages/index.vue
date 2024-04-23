@@ -1,5 +1,5 @@
 <template>
-  <div class="styleMe">
+  <div>
     <HeroTwo />
     <FeatureList />
   </div>
