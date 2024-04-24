@@ -1,7 +1,7 @@
 <template>
   <div>
     <HeroTwo />
-    <BentoBox />
+    <BentoContent />
     <FeatureList />
   </div>
 </template>

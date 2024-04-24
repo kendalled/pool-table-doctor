@@ -154,7 +154,7 @@
             leave-from-class="opacity-100 translate-y-0"
             leave-to-class="opacity-0 translate-y-1"
           >
-          <div v-show="smallFlyout" class="absolute -left-8 top-full z-10 mt-3 w-56 rounded-xl bg-white p-2 shadow-lg ring-1 ring-gray-900/5">
+          <div v-show="smallFlyout" v-click-outside="vcoConfig" class="absolute -left-8 top-full z-10 mt-3 w-56 rounded-xl bg-white p-2 shadow-lg ring-1 ring-gray-900/5">
             <nuxt-link v-for="service in services":to="service.link" :title="service.name" class="block rounded-lg px-3 py-2 text-sm font-semibold leading-6 text-gray-900 hover:bg-gray-50">{{ service.name }}</nuxt-link>
           </div>
           </transition>
@@ -246,7 +246,11 @@
 </template>
 
 <script>
+import vClickOutside from 'click-outside-vue3'
 export default {
+  directives: {
+    clickOutside: vClickOutside.directive
+  },
   data () {
     return {
       smallFlyout: false,
@@ -270,6 +274,21 @@ export default {
           link: 'cloth'
         }
       ]
+    }
+  },
+  computed: {
+    vcoConfig () {
+      return {
+        handler: this.close,
+        events: ['click'],
+        // activate / deactivate click-outside directive dynamically
+        isActive: this.smallFlyout
+      }
+    }
+  },
+  methods: {
+    close () {
+      this.smallFlyout = false
     }
   }
 }
