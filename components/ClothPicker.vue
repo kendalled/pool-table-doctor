@@ -120,6 +120,140 @@ export default {
           name: 'Dusty Pink',
           img: 'dustyPink.jpg',
         }
+      ],
+      championshipCloth: [
+      {
+        name: 'Red',
+        img: 'red.jpg',
+      },
+      {
+        name: 'Burgundy',
+        img: 'burgundy.jpg',
+      },
+      {
+        name: 'Titanium',
+        img: 'titanium.jpg',
+      },
+      {
+        name: 'Charcoal',
+        img: 'charcoal.jpg',
+      },
+      {
+        name: 'Steel Gray',
+        img: 'steelGray.jpg',
+      },
+      {
+        name: 'Black',
+        img: 'black.jpg',
+      },
+      {
+        name: 'Purple',
+        img: 'purple.jpg',
+      },
+      {
+        name: 'Olive',
+        img: 'olive.jpg',
+      },
+      {
+        name: 'Taupe',
+        img: 'taupe.jpg',
+      },
+      {
+        name: 'Golden',
+        img: 'golden.jpg',
+      },
+      {
+        name: 'Khaki',
+        img: 'khaki.jpg',
+      },
+      {
+        name: 'Camel',
+        img: 'camel.jpg',
+      },
+      {
+        name: 'Brown',
+        img: 'brown.jpg',
+      },
+      {
+        name: 'Basic Green',
+        img: 'basicGreen.jpg',
+      },
+      {
+        name: 'Championship Green',
+        img: 'championshipGreen.jpg',
+      },
+      {
+        name: 'Dark Green',
+        img: 'darkGreen.jpg',
+      },
+      {
+        name: 'Bottle Green',
+        img: 'bottleGreen.jpg',
+      },
+      {
+        name: 'English Green',
+        img: 'englishGreen.jpg',
+      },
+      {
+        name: 'Aztec',
+        img: 'aztec.jpg',
+      },
+      {
+        name: 'Brick',
+        img: 'brick.jpg',
+      },
+      {
+        name: 'Navy',
+        img: 'navy.jpg',
+      },
+      {
+        name: 'Wine',
+        img: 'wine.jpg',
+      },
+      {
+        name: 'Academy Blue',
+        img: 'academyBlue.jpg',
+      },
+      {
+        name: 'Euro Blue',
+        img: 'euroBlue.jpg',
+      },
+      {
+        name: 'Electric Blue',
+        img: 'electricBlue.jpg',
+      },
+      {
+        name: 'Bright Pink',
+        img: 'brightPink.jpg',
+      },
+      {
+        name: 'Bright Red',
+        img: 'brightRed.jpg',
+      },
+      {
+        name: 'Bright Orange',
+        img: 'brightOrange.jpg',
+      },
+      {
+        name: 'Bright Gold',
+        img: 'brightGold.jpg',
+      },
+      {
+        name: 'Bright Lime',
+        img: 'brightLime.jpg',
+      },
+      {
+        name: 'Bright White',
+        img: 'brightWhite.jpg',
+      },
+      {
+        name: 'Slate',
+        img: 'slate.jpg',
+      },
+      {
+        name: 'Steel Grey',
+        img: 'steelGrey.jpg',
+      }
       ]
     }
   }

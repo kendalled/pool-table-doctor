@@ -20,6 +20,5 @@
         </div>
       </div>
     </header>
-    <BentoContent class="my-9" />
   </div>
 </template>
