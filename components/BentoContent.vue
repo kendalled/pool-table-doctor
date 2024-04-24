@@ -10,7 +10,7 @@
         <div class="space-y-8">
           <!-- <h2 id="features-heading" class="font-medium text-gray-500">Leatherbound Daily Journal</h2>
           <p class="mt-4 text-4xl font-bold tracking-tight text-gray-900">We've got you covered.</p> -->
-          <p class="text-gray-700 text-lg">Are you having your pool table <span class="font-medium">set up</span>, <span class="font-medium">moved</span> or <span class="font-medium">recovered</span>? Good news! You have come to the right place, we are <span class="font-semibold">the</span> certified pool table experts!</p>
+          <p class="text-gray-700 text-lg">Are you having your pool table <span class="font-medium">set up</span>, <span class="font-medium">moved</span>, or <span class="font-medium">recovered</span>? Good news! You have come to the right place, we are <span class="font-semibold">the</span> certified pool table experts!</p>
             <ul class="grid grid-cols-3">
               <li v-for="service in servicesOffered" class="flex items-center my-4 mx-1">
                 <!-- <svg class="h-6 w-6 flex-none fill-sky-100 stroke-sky-500 stroke-2" stroke-linecap="round" stroke-linejoin="round">
