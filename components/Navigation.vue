@@ -124,7 +124,7 @@
             </div>
           </div>
         </div>
-        <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Home</a>
+        <nuxt-link to="/" title="Home Page" class="text-sm font-semibold leading-6 text-gray-900">Home</nuxt-link>
         <a href="#" class="text-sm font-semibold leading-6 text-gray-900">About Us</a>
 
         <div class="relative">
