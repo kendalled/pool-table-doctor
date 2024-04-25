@@ -1,6 +1,6 @@
 <template>
   <div class="mx-auto shadow-sm rounded-md max-w-7xl px-6 sm:px-8 py-6 w-full bg-gray-50">
-    <h2 class="text-4xl font-bold text-green-800 mb-4">{{ label }}</h2>
+    <h2 class="text-3xl font-bold text-green-800 mb-4">{{ label }}</h2>
     <div class="grid grid-cols-4 gap-4">
       <ClothItem v-for="item in cloths" :prefix="prefix" :cloth="item"/>
     </div>
