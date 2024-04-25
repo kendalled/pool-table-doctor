@@ -125,7 +125,7 @@
           </div>
         </div>
         <nuxt-link to="/" title="Home Page" class="text-sm font-semibold leading-6 text-gray-900">Home</nuxt-link>
-        <a href="#" class="text-sm font-semibold leading-6 text-gray-900">About Us</a>
+        <nuxt-link to="about-us" title="About Page" class="text-sm font-semibold leading-6 text-gray-900">About Us</nuxt-link>
 
         <div class="relative">
           <button type="button" @click.prevent="smallFlyout = !smallFlyout" class="flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900" aria-expanded="false">
