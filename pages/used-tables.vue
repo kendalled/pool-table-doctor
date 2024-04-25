@@ -2,9 +2,10 @@
   <!-- universal formatting -->
   <div class="mx-auto w-full max-w-7xl px-6 sm:px-8 mt-6">
     <div class="prose lg:prose-lg bg-white rounded-md w-full max-w-7xl px-6 sm:px-8 lg:px-12 py-6 sm:py-8 lg:py-10">
-      <h2>
+      <!-- TODO: consider text-4xl -->
+      <h1 class="!text-3xl">
         Used & Pre-Owned Pool Tables for Sale
-      </h2>
+      </h1>
       <p>
         The Pool Table Doctor carries a large selection of used / pre-owned pool tables and billiard tables. We do our best to make sure our selection is current and up to date on our website; however it is always a good idea to call about a particular pool table for availability.
       </p>
