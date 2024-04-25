@@ -4,7 +4,7 @@
       <div class="flex lg:flex-1">
         <nuxt-link to="/" title="Home Page" class="-m-1.5 p-1.5">
           <span class="sr-only">Your Company</span>
-          <img class="h-14 absolute top-[0.375rem] w-auto" src="https://www.pooltabledoctor.com/assets/components/images/ThePoolTableDoctorLogo2.png" alt="">
+          <img class="h-14 absolute top-[0.375rem] w-auto" src="/logo.png" alt="">
         </nuxt-link>
       </div>
       <div class="flex lg:hidden">
@@ -171,14 +171,14 @@
     </div>
     </nav>
     <!-- Mobile menu, show/hide based on menu open state. -->
-    <div class="lg:hidden" role="dialog" aria-modal="true">
+    <div v-show="mobileOpen" class="lg:hidden" role="dialog" aria-modal="true">
       <!-- Background backdrop, show/hide based on slide-over state. -->
       <div class="fixed inset-0 z-10"></div>
       <div class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
         <div class="flex items-center justify-between">
           <a href="#" class="-m-1.5 p-1.5">
-            <span class="sr-only">Your Company</span>
-            <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=green&shade=600" alt="">
+            <span class="sr-only">The Pool Table Doctor</span>
+            <img class="h-8 w-auto" src="/logo.png" alt="The Pool Table Doctor Logo">
           </a>
           <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700">
             <span class="sr-only">Close menu</span>
