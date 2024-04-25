@@ -160,7 +160,7 @@
           </transition>
         </div>
 
-        <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Used Pool Tables</a>
+        <nuxt-link to="/used-tables" title="Used and Pre-owned Pool Tables" class="text-sm font-semibold leading-6 text-gray-900">Used Pool Tables</nuxt-link>
       </div>
       <!-- <div class="hidden lg:flex lg:flex-1 lg:justify-end">
         <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Log in <span aria-hidden="true">&rarr;</span></a>
@@ -259,19 +259,19 @@ export default {
       services: [
         {
           name: 'Installation & Recovering',
-          link: 'cloth'
+          link: 'recovering'
         },
         {
           name: 'Table Moving',
-          link: 'cloth'
+          link: 'moving'
         },
         {
           name: 'Bumper Replacement',
-          link: 'cloth'
+          link: 'bumper-replacement'
         },
         {
           name: 'Dismantling & Crating',
-          link: 'cloth'
+          link: 'dismantling'
         }
       ]
     }

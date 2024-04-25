@@ -1,5 +1,5 @@
 <template>
-  <div class="space-y-6 mt-8">
+  <div class="space-y-6 max-w-7xl px-6 sm:px-8 mt-6 w-full mx-auto">
     <ClothPicker :cloths="championshipCloth" prefix="/felt/championship/" label="Championship Cloths" />
     <ClothPicker :cloths="simonisCloth" prefix="/felt/simonis/" label="Simonis Cloths" />
   </div>
