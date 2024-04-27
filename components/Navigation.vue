@@ -166,8 +166,8 @@
         <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Log in <span aria-hidden="true">&rarr;</span></a>
       </div> -->
       <div class="hidden lg:flex lg:flex-1 items-center lg:justify-end gap-x-6">
-      <nuxt-link to="cloth" title="Cloth Gallery"class="hidden lg:block lg:text-sm lg:font-semibold lg:leading-6 lg:text-gray-900">Cloth Gallery</nuxt-link>
-      <a href="#" class="rounded-md bg-green-700 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-green-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600">Contact us</a>
+      <nuxt-link to="cloth" title="Cloth Gallery" class="hidden lg:block lg:text-sm lg:font-semibold lg:leading-6 lg:text-gray-900">Cloth Gallery</nuxt-link>
+      <nuxt-link to="contact" title="Contact Page" class="rounded-md bg-green-700 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-green-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600">Contact us</nuxt-link>
     </div>
     </nav>
     <!-- Mobile menu, show/hide based on menu open state. -->
@@ -259,7 +259,7 @@ export default {
       services: [
         {
           name: 'Installation & Recovering',
-          link: 'recovering'
+          link: 'installation-recovering'
         },
         {
           name: 'Table Moving',
@@ -271,7 +271,7 @@ export default {
         },
         {
           name: 'Dismantling & Crating',
-          link: 'dismantling'
+          link: 'dismantling-crating'
         }
       ]
     }

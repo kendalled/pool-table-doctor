@@ -20,7 +20,7 @@
         Fast forward to 2024
       </h2>
       <p>
-        Today, <b>The Pool Table Doctor</b> operates as a multi-city / multi-state pool table service company providing premium quality billiard services of all aspects to commercial and residential customers alike. In 2003, <a href="https://pooltablestore.com" title="The Pool Table Store Website">www.PoolTableStore.com</a> was founded to service customers with billiard products and pool tables that can be shipped and serviced throughout the U.S.
+        Today, <b>The Pool Table Doctor</b> operates as a multi-regional pool table service company providing premium quality billiard services of all aspects to commercial and residential customers alike. In 2003, <a href="https://pooltablestore.com" title="The Pool Table Store Website">www.PoolTableStore.com</a> was founded to service customers with billiard products and pool tables that can be shipped and serviced throughout the U.S.
       </p>
       <p>
         Call your local Pool Table Doctor Today!
