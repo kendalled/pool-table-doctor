@@ -27,6 +27,7 @@
       </p>
       <img src="/pool-table-doctor-vans.jpeg" alt="The Pool Table Doctor Vans" class="rounded-md shadow-md w-1/2 h-auto mx-auto" />
     </div>
+    <LogoTimeline />
   </div>
 </template>
 
