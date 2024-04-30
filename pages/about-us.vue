@@ -7,7 +7,7 @@
         About Us
       </h1>
       <p>
-        <b>The Pool Table Doctor</b> understands the value and importance of keeping your pool table at its best; therefore, we only use high-quality materials on <b>all</b> pool tables no matter what! We have over 30 years of extensive knowledge and experience when assembling all pool table makes and models, and of course we guarantee our work!
+        <b>The Pool Table Doctor</b> understands the value and importance of keeping your pool table at its best; therefore, we only use high-quality materials on <b>all</b> pool tables, no matter what! We have over 30 years of extensive knowledge and experience when assembling all pool table makes and models, and of course we guarantee our work!
       </p>
       <p>
         <b>The Pool Table Doctor</b> was originally founded in <b>1994</b> by Grant Twilley as a pool table service, moving, and installation company which also included a vending route that supplied several bars and restaurants with gaming equipment throughout the state of Iowa.
