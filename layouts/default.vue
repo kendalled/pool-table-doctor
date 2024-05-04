@@ -3,6 +3,7 @@
     <Navigation />
     <PhoneNumbers />
     <slot />
+    <TestFooter class="mt-12"/>
   </div>
 </template>
 

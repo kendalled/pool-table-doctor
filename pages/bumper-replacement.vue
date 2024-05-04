@@ -15,3 +15,38 @@
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  data () {
+    return {
+      simonisCloth: [
+        {
+          name: 'Simonis Green',
+          img: 'simonisGreen.jpg',
+        },
+        {
+          name: 'Marine Blue',
+          img: 'marineBlue.jpg',
+        },
+        {
+          name: 'Black',
+          img: 'black.jpg',
+        },
+        {
+          name: 'Espresso',
+          img: 'espresso.jpg',
+        },
+        {
+          name: 'Wine',
+          img: 'wine.jpg',
+        },
+        {
+          name: 'English Green',
+          img: 'englishGreen.jpg',
+        }
+      ]
+    }
+  }
+}
+</script>
