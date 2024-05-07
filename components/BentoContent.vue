@@ -1,22 +1,12 @@
 <template>
-  <div class="w-full max-w-7xl px-6 sm:px-8 mx-auto my-4 flex w-full flex-col items-center justify-center">
-    <div class="grid h-full w-full grid-cols-10 gap-6">
-      <!-- <div class="col-span-4 row-span-3" :class="gridItemClasses">Featured Work</div>
-      <div class="col-span-5 row-span-1" :class="gridItemClasses">Artist Name</div>
-      <div class="col-span-1 row-span-1" :class="gridItemClasses">Photo</div>
-      <div class="col-span-2 row-span-2" :class="gridItemClasses">Artwork 1</div>
-      <div class="col-span-4 row-span-2" :class="gridItemClasses">Artwork 2</div> -->
-      <div class="col-span-6 row-span-2 h-auto px-8 pb-6" :class="gridItemClasses">
-        <div class="space-y-8">
-          <!-- <h2 id="features-heading" class="font-medium text-gray-500">Leatherbound Daily Journal</h2>
-          <p class="mt-4 text-4xl font-bold tracking-tight text-gray-900">We've got you covered.</p> -->
-          <p class="text-gray-700 text-lg">Are you having your pool table <span class="font-medium">set up</span>, <span class="font-medium">moved</span>, or <span class="font-medium">recovered</span>? Good news! You have come to the right place, we are <span class="font-semibold">the</span> certified pool table experts!</p>
-            <ul class="grid grid-cols-3">
-              <li v-for="service in servicesOffered" class="flex items-center my-4 mx-1">
-                <!-- <svg class="h-6 w-6 flex-none fill-sky-100 stroke-sky-500 stroke-2" stroke-linecap="round" stroke-linejoin="round">
-                  <circle cx="12" cy="12" r="11" />
-                  <path d="m8 13 2.165 2.165a1 1 0 0 0 1.521-.126L16 9" fill="none" />
-                </svg> -->
+  <div class="w-full max-w-7xl px-6 sm:px-8 mx-auto my-4">
+    <div class="grid items-start h-full w-full md:grid-cols-10 gap-6">
+      <div class="col-span-6 row-span-2" :class="gridItemClasses">
+        <div class="self-start">
+          <p class="text-green-900 font-medium mb-4">Trust the Experts</p>
+          <p class="text-gray-700 text-lg font-medium mb-8">Are you having your pool table <span class="font-medium">set up</span>, <span class="font-medium">moved</span>, or <span class="font-medium">recovered</span>? Good news. You have come to the right place, we are the certified pool table experts!</p>
+            <ul class="grid md:grid-cols-3">
+              <li v-for="service in serviceList" class="flex items-center my-4 mx-1">
                 <svg class="h-6 w-6 opacity-90" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" version="1.0" width="32" height="32" viewBox="0 0 32 32" id="svg2">
                   <defs id="defs4"/>
                   <g transform="translate(-158.23886,-935.57002)" id="layer1">
@@ -32,7 +22,7 @@
             </ul>
         </div>
       </div>
-      <div class="col-span-4 row-span-2 h-96" :class="gridItemClasses">
+      <div class="col-span-4 row-span-2" :class="gridItemClasses">
         <img src="https://www.pooltabledoctor.com/assets/components/images/pool-table-doctor-champ-certifications.jpg" alt="Pool Table Doctor Certifications" class="h-80 w-auto rounded-md shadow-lg">
       </div>
     </div>
@@ -43,8 +33,8 @@
 export default {
   data () {
     return {
-      gridItemClasses: 'rounded-lg bg-gray-50 flex justify-center items-center',
-      servicesOffered: [
+      gridItemClasses: 'rounded-lg bg-gray-50 flex justify-center items-center p-6 h-[22rem]',
+      serviceList: [
         'Pool table moves',
         'Pool table dismantling',
         'Pool table installation',

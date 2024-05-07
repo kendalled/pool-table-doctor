@@ -21,9 +21,9 @@
         </svg>
         <!-- pl-8 is questionable -->
         <div class="space-y-6 mt-16">
-          <img src="/rooms/game-room-3.png" class="lg:-ml-16 h-64 w-full object-cover rounded-md shadow-md mx-auto"/>
+          <img src="/rooms/game-room-3.png" class="xl:-ml-16 h-64 w-full object-cover rounded-md shadow-md mx-auto"/>
           <img src="/rooms/game-room-6.png" class="w-full h-64 object-cover rounded-md shadow-md mx-auto"/>
-          <img src="/rooms/game-room.png" class="lg:-ml-16 w-full h-auto rounded-md shadow-md mx-auto"/>
+          <img src="/rooms/game-room.png" class="xl:-ml-16 w-full h-auto rounded-md shadow-md mx-auto"/>
           
         </div>
       </div>
