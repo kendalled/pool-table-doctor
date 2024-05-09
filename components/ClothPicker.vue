@@ -37,12 +37,58 @@ export default {
     },
   },
   mounted () {
-    const lightbox = new PhotoSwipeLightbox({
+    const options = {
       gallery: '#my-gallery',
       children: 'a',
       pswpModule: () => import('photoswipe')
-    });
+    };
+    const lightbox = new PhotoSwipeLightbox(options);
+
+    lightbox.on('uiRegister', function() {
+    lightbox.pswp.ui.registerElement({
+    name: 'custom-caption',
+    order: 9,
+    isButton: false,
+    appendTo: 'root',
+    html: 'Caption text',
+    onInit: (el, pswp) => {
+      lightbox.pswp.on('change', () => {
+        const currSlideElement = lightbox.pswp.currSlide.data.element;
+        let captionHTML = '';
+        if (currSlideElement) {
+          // const hiddenCaption = currSlideElement.querySelector('.hidden-caption-content');
+          captionHTML = currSlideElement.querySelector('img').getAttribute('alt');
+        }
+        el.innerHTML = captionHTML;
+      });
+    }
+  });
+});
     lightbox.init();
   }
 }
 </script>
+
+<style>
+.pswp__custom-caption {
+  background: rgba(75, 150, 75, 0.75);
+  font-size: 16px;
+  color: #fff;
+  width: calc(100% - 32px);
+  max-width: 400px;
+  padding: 2px 8px;
+  border-radius: 4px;
+  position: absolute;
+  left: 50%;
+  bottom: 16px;
+  transform: translateX(-50%);
+  text-align: center;
+}
+.pswp__custom-caption a {
+  color: #fff;
+  text-decoration: underline;
+}
+.hidden-caption-content {
+  display: none;
+}
+</style>
