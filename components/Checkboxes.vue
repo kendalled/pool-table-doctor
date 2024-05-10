@@ -1,5 +1,6 @@
 <template>
   <fieldset>
+    <!-- todo: make whole label clickable -->
     <legend class="sr-only">Services</legend>
     <label for="email" class="block text-sm font-semibold leading-6 text-gray-900 mb-2">Services</label>
     <div class="space-y-2 grid md:grid-cols-2 gap-x-2 gap-y-2">
