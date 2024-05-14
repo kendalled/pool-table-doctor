@@ -11,7 +11,7 @@
         </div>
         <div class="ml-3 text-sm leading-6">
           <label :id="service.id" class="font-medium text-gray-900 hidden">{{ service.name }}</label>
-          <label :id="service.id + '-description'" class="text-gray-600">{{ service.name }}<span class="sr-only"><!-- was hidden content --></span></label>
+          <label :id="service.id + '-description'" class="text-gray-700">{{ service.name }}<span class="sr-only"><!-- was hidden content --></span></label>
         </div>
       </div>
       <!-- end checkbox item -->
