@@ -9,246 +9,482 @@
 export default {
   data () {
     return {
-      simonisCloth: [
-        {
-          name: 'Simonis Green',
-          img: 'simonisGreen.jpg',
-        },
-        {
-          name: 'Marine Blue',
-          img: 'marineBlue.jpg',
-        },
-        {
-          name: 'Black',
-          img: 'black.jpg',
-        },
-        {
-          name: 'Espresso',
-          img: 'espresso.jpg',
-        },
-        {
-          name: 'Wine',
-          img: 'wine.jpg',
-        },
-        {
-          name: 'English Green',
-          img: 'englishGreen.jpg',
-        },
-        {
-          name: 'Royal Blue',
-          img: 'royalBlue.jpg',
-        },
-        {
-          name: 'Slate Grey',
-          img: 'slateGrey.jpg',
-        },
-        {
-          name: 'Mocha',
-          img: 'mocha.jpg',
-        },
-        {
-          name: 'Burgundy',
-          img: 'burgundy.jpg',
-        },
-        {
-          name: 'Spruce',
-          img: 'spruce.jpg',
-        },
-        {
-          name: 'Electric Blue',
-          img: 'electricBlue.jpg',
-        },
-        {
-          name: 'Olive',
-          img: 'olive.jpg',
-        },
-        {
-          name: 'Camel',
-          img: 'camel.jpg',
-        },
-        {
-          name: 'Red',
-          img: 'red.jpg',
-        },
-        {
-          name: 'Dark Green',
-          img: 'darkGreen.jpg',
-        },
-        {
-          name: 'Tournament Blue',
-          img: 'tournamentBlue.jpg',
-        },
-        {
-          name: 'Gold',
-          img: 'gold.jpg',
-        },
-        {
-          name: 'Purple',
-          img: 'purple.jpg',
-        },
-        {
-          name: 'Petroleum Blue',
-          img: 'petroleumBlue.jpg',
-        },
-        {
-          name: 'Powder Blue',
-          img: 'powderBlue.jpg',
-        },
-        {
-          name: 'Burnt Orange',
-          img: 'burntOrange.jpg',
-        },
-        {
-          name: 'Fushsia',
-          img: 'fushsia.jpg',
-        },
-        {
-          name: 'Blue Green',
-          img: 'blueGreen.jpg',
-        },
-        {
-          name: 'Grey',
-          img: 'grey.jpg',
-        },
-        {
-          name: 'Chartreuse',
-          img: 'chartreuse.jpg',
-        },
-        {
-          name: 'Dusty Pink',
-          img: 'dustyPink.jpg',
-        }
-      ],
       championshipCloth: [
-      {
+    {
         name: 'Red',
-        img: 'red.jpg',
-      },
-      {
+        img: {
+            src: 'red.jpg',
+            width: 720,
+            height: 900
+        },
+    },
+    {
         name: 'Burgundy',
-        img: 'burgundy.jpg',
-      },
-      {
+        img: {
+            src: 'burgundy.jpg',
+            width: 720,
+            height: 900
+        },
+    },
+    {
         name: 'Titanium',
-        img: 'titanium.jpg',
-      },
-      {
+        img: {
+            src: 'titanium.jpg',
+            width: 720,
+            height: 900
+        },
+    },
+    {
         name: 'Charcoal',
-        img: 'charcoal.jpg',
-      },
-      {
+        img: {
+            src: 'charcoal.jpg',
+            width: 720,
+            height: 900
+        },
+    },
+    {
         name: 'Steel Grey',
-        img: 'steelGrey.jpg',
-      },
-      {
+        img: {
+            src: 'steelGrey.jpg',
+            width: 720,
+            height: 900
+        },
+    },
+    {
         name: 'Black',
-        img: 'black.jpg',
-      },
-      {
+        img: {
+            src: 'black.jpg',
+            width: 720,
+            height: 900
+        },
+    },
+    {
         name: 'Purple',
-        img: 'purple.jpg',
-      },
-      {
+        img: {
+            src: 'purple.jpg',
+            width: 720,
+            height: 900
+        },
+    },
+    {
         name: 'Olive',
-        img: 'olive.jpg',
-      },
-      {
+        img: {
+            src: 'olive.jpg',
+            width: 720,
+            height: 900
+        },
+    },
+    {
         name: 'Taupe',
-        img: 'taupe.jpg',
-      },
-      {
+        img: {
+            src: 'taupe.jpg',
+            width: 720,
+            height: 900
+        },
+    },
+    {
         name: 'Golden',
-        img: 'golden.jpg',
-      },
-      {
+        img: {
+            src: 'golden.jpg',
+            width: 720,
+            height: 900
+        },
+    },
+    {
         name: 'Khaki',
-        img: 'khaki.jpg',
-      },
-      {
+        img: {
+            src: 'khaki.jpg',
+            width: 720,
+            height: 900
+        },
+    },
+    {
         name: 'Camel',
-        img: 'camel.jpg',
-      },
-      {
+        img: {
+            src: 'camel.jpg',
+            width: 720,
+            height: 900
+        },
+    },
+    {
         name: 'Brown',
-        img: 'brown.jpg',
-      },
-      {
+        img: {
+            src: 'brown.jpg',
+            width: 720,
+            height: 900
+        },
+    },
+    {
         name: 'Basic Green',
-        img: 'basicGreen.jpg',
-      },
-      {
+        img: {
+            src: 'basicGreen.jpg',
+            width: 720,
+            height: 900
+        },
+    },
+    {
         name: 'Championship Green',
-        img: 'championshipGreen.jpg',
-      },
-      {
+        img: {
+            src: 'championshipGreen.jpg',
+            width: 720,
+            height: 900
+        },
+    },
+    {
         name: 'Dark Green',
-        img: 'darkGreen.jpg',
-      },
-      {
+        img: {
+            src: 'darkGreen.jpg',
+            width: 720,
+            height: 900
+        },
+    },
+    {
         name: 'Bottle Green',
-        img: 'bottleGreen.jpg',
-      },
-      {
+        img: {
+            src: 'bottleGreen.jpg',
+            width: 720,
+            height: 900
+        },
+    },
+    {
         name: 'English Green',
-        img: 'englishGreen.jpg',
-      },
-      {
+        img: {
+            src: 'englishGreen.jpg',
+            width: 720,
+            height: 900
+        },
+    },
+    {
         name: 'Aztec',
-        img: 'aztec.jpg',
-      },
-      {
+        img: {
+            src: 'aztec.jpg',
+            width: 720,
+            height: 900
+        },
+    },
+    {
         name: 'Brick',
-        img: 'brick.jpg',
-      },
-      {
+        img: {
+            src: 'brick.jpg',
+            width: 720,
+            height: 900
+        },
+    },
+    {
         name: 'Navy',
-        img: 'navy.jpg',
-      },
-      {
+        img: {
+            src: 'navy.jpg',
+            width: 720,
+            height: 900
+        },
+    },
+    {
         name: 'Wine',
-        img: 'wine.jpg',
-      },
-      {
+        img: {
+            src: 'wine.jpg',
+            width: 720,
+            height: 900
+        },
+    },
+    {
         name: 'Academy Blue',
-        img: 'academyBlue.jpg',
-      },
-      {
+        img: {
+            src: 'academyBlue.jpg',
+            width: 720,
+            height: 900
+        },
+    },
+    {
         name: 'Euro Blue',
-        img: 'euroBlue.jpg',
-      },
-      {
+        img: {
+            src: 'euroBlue.jpg',
+            width: 720,
+            height: 900
+        },
+    },
+    {
         name: 'Electric Blue',
-        img: 'electricBlue.jpg',
-      },
-      {
+        img: {
+            src: 'electricBlue.jpg',
+            width: 720,
+            height: 900
+        },
+    },
+    {
         name: 'Bright Pink',
-        img: 'brightPink.jpg',
-      },
-      {
+        img: {
+            src: 'brightPink.jpg',
+            width: 720,
+            height: 900
+        },
+    },
+    {
         name: 'Bright Red',
-        img: 'brightRed.jpg',
-      },
-      {
+        img: {
+            src: 'brightRed.jpg',
+            width: 720,
+            height: 900
+        },
+    },
+    {
         name: 'Bright Orange',
-        img: 'brightOrange.jpg',
-      },
-      {
+        img: {
+            src: 'brightOrange.jpg',
+            width: 720,
+            height: 900
+        },
+    },
+    {
         name: 'Bright Gold',
-        img: 'brightGold.jpg',
-      },
-      {
+        img: {
+            src: 'brightGold.jpg',
+            width: 720,
+            height: 900
+        },
+    },
+    {
         name: 'Bright Lime',
-        img: 'brightLime.jpg',
-      },
-      {
+        img: {
+            src: 'brightLime.jpg',
+            width: 720,
+            height: 900
+        },
+    },
+    {
         name: 'Bright White',
-        img: 'brightWhite.jpg',
-      },
-      {
+        img: {
+            src: 'brightWhite.jpg',
+            width: 720,
+            height: 900
+        },
+    },
+    {
         name: 'Midnight Blue',
-        img: 'midnightBlue.jpg',
-      }
-      ]
+        img: {
+            src: 'midnightBlue.jpg',
+            width: 720,
+            height: 900
+        },
+    }
+],
+      simonisCloth: [
+    {
+        name: 'Simonis Green',
+        img: {
+            src: 'simonisGreen.jpg',
+            width: 720,
+            height: 720
+        },
+    },
+    {
+        name: 'Marine Blue',
+        img: {
+            src: 'marineBlue.jpg',
+            width: 720,
+            height: 720
+        },
+    },
+    {
+        name: 'Black',
+        img: {
+            src: 'black.jpg',
+            width: 720,
+            height: 720
+        },
+    },
+    {
+        name: 'Espresso',
+        img: {
+            src: 'espresso.jpg',
+            width: 720,
+            height: 720
+        },
+    },
+    {
+        name: 'Wine',
+        img: {
+            src: 'wine.jpg',
+            width: 720,
+            height: 720
+        },
+    },
+    {
+        name: 'English Green',
+        img: {
+            src: 'englishGreen.jpg',
+            width: 720,
+            height: 720
+        },
+    },
+    {
+        name: 'Royal Blue',
+        img: {
+            src: 'royalBlue.jpg',
+            width: 720,
+            height: 720
+        },
+    },
+    {
+        name: 'Slate Grey',
+        img: {
+            src: 'slateGrey.jpg',
+            width: 720,
+            height: 720
+        },
+    },
+    {
+        name: 'Mocha',
+        img: {
+            src: 'mocha.jpg',
+            width: 720,
+            height: 720
+        },
+    },
+    {
+        name: 'Burgundy',
+        img: {
+            src: 'burgundy.jpg',
+            width: 720,
+            height: 720
+        },
+    },
+    {
+        name: 'Spruce',
+        img: {
+            src: 'spruce.jpg',
+            width: 720,
+            height: 720
+        },
+    },
+    {
+        name: 'Electric Blue',
+        img: {
+            src: 'electricBlue.jpg',
+            width: 720,
+            height: 720
+        },
+    },
+    {
+        name: 'Olive',
+        img: {
+            src: 'olive.jpg',
+            width: 720,
+            height: 720
+        },
+    },
+    {
+        name: 'Camel',
+        img: {
+            src: 'camel.jpg',
+            width: 720,
+            height: 720
+        },
+    },
+    {
+        name: 'Red',
+        img: {
+            src: 'red.jpg',
+            width: 720,
+            height: 720
+        },
+    },
+    {
+        name: 'Dark Green',
+        img: {
+            src: 'darkGreen.jpg',
+            width: 720,
+            height: 720
+        },
+    },
+    {
+        name: 'Tournament Blue',
+        img: {
+            src: 'tournamentBlue.jpg',
+            width: 720,
+            height: 720
+        },
+    },
+    {
+        name: 'Gold',
+        img: {
+            src: 'gold.jpg',
+            width: 720,
+            height: 720
+        },
+    },
+    {
+        name: 'Purple',
+        img: {
+            src: 'purple.jpg',
+            width: 720,
+            height: 720
+        },
+    },
+    {
+        name: 'Petroleum Blue',
+        img: {
+            src: 'petroleumBlue.jpg',
+            width: 720,
+            height: 720
+        },
+    },
+    {
+        name: 'Powder Blue',
+        img: {
+            src: 'powderBlue.jpg',
+            width: 720,
+            height: 720
+        },
+    },
+    {
+        name: 'Burnt Orange',
+        img: {
+            src: 'burntOrange.jpg',
+            width: 720,
+            height: 720
+        },
+    },
+    {
+        name: 'Fushsia',
+        img: {
+            src: 'fushsia.jpg',
+            width: 720,
+            height: 720
+        },
+    },
+    {
+        name: 'Blue Green',
+        img: {
+            src: 'blueGreen.jpg',
+            width: 720,
+            height: 720
+        },
+    },
+    {
+        name: 'Grey',
+        img: {
+            src: 'grey.jpg',
+            width: 720,
+            height: 720
+        },
+    },
+    {
+        name: 'Chartreuse',
+        img: {
+            src: 'chartreuse.jpg',
+            width: 720,
+            height: 720
+        },
+    },
+    {
+        name: 'Dusty Pink',
+        img: {
+            src: 'dustyPink.jpg',
+            width: 720,
+            height: 720
+        },
+    }
+]
     }
   }
 }

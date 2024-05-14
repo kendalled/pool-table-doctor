@@ -31,7 +31,11 @@ export default {
       default: [
         {
           name: 'Simonis Green',
-          img: 'simonisGreen.jpg',
+          img: {
+            src: 'simonisGreen.jpg',
+            width: 720,
+            height: 720
+          }
         }
       ]
     },

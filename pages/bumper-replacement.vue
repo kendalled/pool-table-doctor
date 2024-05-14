@@ -1,18 +1,7 @@
 <template>
-  <!-- universal formatting -->
-  <div class="mx-auto w-full max-w-7xl px-6 sm:px-8 mt-6">
-    <div class="prose lg:prose-lg bg-white rounded-md w-full max-w-7xl px-6 sm:px-8 lg:px-12 py-6 sm:py-8 lg:py-10">
-      <!-- TODO: consider text-4xl -->
-      <h1 class="!text-3xl">
-        Pool Table Bumper Replacements
-      </h1>
-      <p>
-        The Pool Table Doctor offers cushion (bumper) replacements and repairs.
-      </p>
-      <p>
-        Over time, cushion rubber becomes hard and/or dry rotted. This is caused mostly by pool tables being set up in a garage, porch, or sunlight beaming through the windows over time without cover. Other times, cushion rubber can do the exact opposite and become squishy like a stress ball. This happens when the pool table has been in a controlled climate but played on for a long time, such as tables in a pool hall. No matter what the circumstance, we can fix it!
-      </p>
-    </div>
+  <div class="space-y-6 max-w-7xl px-6 sm:px-8 mt-6 w-full mx-auto">
+    <!-- todo: refactor to fit old content using vue slots, slightly shrink image sizes when expanded -->
+    <ClothPicker :cloths="bumperChoices" prefix="/bumper/" label="Rubber Cushion Selection" desc="Over time, cushion rubber becomes hard and/or dry rotted. This is caused mostly by pool tables being set up in a garage, porch, or sunlight beaming through the windows over time without cover. Other times, cushion rubber can do the exact opposite and become squishy like a stress ball. This happens when the pool table has been in a controlled climate but played on for a long time, such as tables in a pool hall. No matter what the circumstance, we can fix it!" />
   </div>
 </template>
 
@@ -20,31 +9,159 @@
 export default {
   data () {
     return {
-      simonisCloth: [
+      bumperChoices: [
         {
-          name: 'Simonis Green',
-          img: 'simonisGreen.jpg',
+          name: '188" K55 Rubber - 3 Pcs',
+          img: {
+            src: '188-K55-rubber-3.jpg',
+            width: 350,
+            height: 315
+          }
         },
         {
-          name: 'Marine Blue',
-          img: 'marineBlue.jpg',
+          name: '118" K55 Carom Rubber - 3 Pcs',
+          img: {
+            src: '118-K55-carom-rubber-3.jpg',
+            width: 350,
+            height: 315
+          }
         },
         {
-          name: 'Black',
-          img: 'black.jpg',
+          name: '118" K66 Rubber - 3 Pcs',
+          img: {
+            src: '118-K66-rubber-3.jpg',
+            width: 350,
+            height: 315
+          }
         },
         {
-          name: 'Espresso',
-          img: 'espresso.jpg',
+          name: '72" Canadian Step Rubber - 6 Pcs',
+          img: {
+            src:'72-canadian-step-rubber-6.jpg',
+            width: 350,
+            height: 315
+          }
         },
         {
-          name: 'Wine',
-          img: 'wine.jpg',
+          name: '48" A48 Rail Rubber - 6 Pcs',
+          img: {
+            src:'48-A48-rail-rubber-6.jpg',
+            width: 350,
+            height: 315
+          }
         },
         {
-          name: 'English Green',
-          img: 'englishGreen.jpg',
-        }
+          name: '48" Artemis Intercontinental Pool No. 66 Rubber - 6pcs',
+          img: {
+            src:'48-artemis-intercontinental-no-66-rubber-6.jpg',
+            width: 350,
+            height: 315
+          }
+        },
+        {
+          name: '48" K55 Standard Rubber - 6 Pcs',
+          img: {
+            src:'48-K55-standard-rubber-6.jpg',
+            width: 350,
+            height: 315
+          }
+        },
+        {
+          name: '48" Artemis Pool No. 66 Rubber - 6 Pcs',
+          img: {
+            src:'48-artemis-no-66-rubber-6.jpg',
+            width: 350,
+            height: 315
+          }
+        },
+        {
+          name: '48" U23 Standard Rubber - 6 Pcs',
+          img: {
+            src:'48-U23-standard-rubber-6.jpg',
+            width: 350,
+            height: 315
+          }
+        },
+        {
+          name: '42" Century Rubber - 6 Pcs',
+          img: {
+            src:'42-century-rubber-6.jpg',
+            width: 350,
+            height: 315
+          }
+        },
+        {
+          name: '48" K66 Standard Rubber - 6 Pcs',
+          img: {
+            src:'48-K66-standard-rubber-6.jpg',
+            width: 350,
+            height: 315
+          }
+        },
+        {
+          name: '118" U118 Carom Rubber - 3 Pcs',
+          img: {
+            src:'118-U118-carom-rubber-3.jpg',
+            width: 350,
+            height: 315
+          }
+        },
+        {
+          name: '118" Artemis No. 79 Carom Rubber - 3 Pcs',
+          img: {
+            src:'118-artemis-no-79-carom-rubber-3.jpg',
+            width: 350,
+            height: 315
+          }
+        },
+        {
+          name: '118" Artemis No. 37 Carom Rubber - 3 Pcs',
+          img: {
+            src:'118-artemis-no-37-carom-rubber-3.jpg',
+            width: 350,
+            height: 315
+          }
+        },
+        {
+          name: '48" #313 Small Rubber - 6 Pcs',
+          img: {
+            src:'48-313-small-rubber-6.jpg',
+            width: 350,
+            height: 315
+          }
+        },
+        {
+          name: '9\' Olhausen Accufast Cushions',
+          img: {
+            src:'9-olhausen-cushions.jpg',
+            width: 350,
+            height: 315
+          }
+        },
+        {
+          name: '118" Artemis Intercontinental No. 66 Carom Rubber - 3 Pcs',
+          img: {
+            src:'118-artemis-intercontinental-no-66-carom-rubber-3.jpg',
+            width: 350,
+            height: 315
+          }
+        },
+        {
+          name: 'K55 Snooker Bends - 12 Pcs',
+          img: {
+            src:'K55-snooker-bends-12.jpg',
+            width: 350,
+            height: 315
+          }
+        },
+        {
+          name: '48" #818 Small Rubber - 6 Pcs',
+          img: {
+            src:'48-818-small-rubber-6.jpg',
+            width: 350,
+            height: 315
+          }
+        },
       ]
     }
   }
