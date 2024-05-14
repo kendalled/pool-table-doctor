@@ -1,6 +1,6 @@
 <template>
   <div class="w-full max-w-7xl px-6 sm:px-8 mx-auto mt-6">
-    <div class="rounded-md my-3 py-3 sm:flex grid grid-cols-2 bg-gray-50 justify-center w-full max-w-7xl space-x-6 text-center text-sm">
+    <div class="rounded-md my-3 py-3 md:flex grid grid-cols-2 bg-gray-50 justify-center w-full max-w-7xl gap-y-2 md:space-x-6 text-center text-sm">
       <p v-for="location in locationList" class="text-green-800">
         <span class="font-semibold">{{ location.name }}</span>
         <br />
@@ -32,7 +32,7 @@ export default {
         //   phone: '(904) 888-7600'
         // },
         {
-          name: 'Ocala',
+          name: 'Gainesville',
           phone: '(352) 354-2460'
         }
       ]

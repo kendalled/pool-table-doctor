@@ -1,7 +1,8 @@
 <template>
   <div class="w-full max-w-7xl px-6 sm:px-8 mx-auto my-4">
     <div class="grid items-start h-full w-full md:grid-cols-10 gap-6">
-      <div class="grid col-span-6 row-span-2" :class="gridItemClasses">
+      <!-- todo: make logical col-spans -->
+      <div class="grid col-span-10 md:col-span-6 row-span-2" :class="gridItemClasses">
         <div class="self-start">
           <p class="text-green-900 font-medium mb-4">Trust the Experts</p>
           <p class="text-gray-700 text-lg font-medium mb-8">Are you having your pool table <span class="font-medium">set up</span>, <span class="font-medium">moved</span>, or <span class="font-medium">recovered</span>? Good news. You have come to the right place, we are the certified pool table experts!</p>
@@ -22,8 +23,8 @@
             </ul>
         </div>
       </div>
-      <div class="col-span-4 row-span-2" :class="gridItemClasses">
-        <img src="https://www.pooltabledoctor.com/assets/components/images/pool-table-doctor-champ-certifications.jpg" alt="Pool Table Doctor Certifications" class="h-80 w-auto rounded-md shadow-lg">
+      <div class="col-span-10 md:col-span-4 row-span-2" :class="gridItemClasses">
+        <img src="https://www.pooltabledoctor.com/assets/components/images/pool-table-doctor-champ-certifications.jpg" alt="Pool Table Doctor Certifications" class="h-80 w-auto rounded-md shadow-lg object-cover">
       </div>
     </div>
   </div>
