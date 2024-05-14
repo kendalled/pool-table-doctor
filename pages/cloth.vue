@@ -14,256 +14,256 @@ export default {
         name: 'Red',
         img: {
             src: 'red.jpg',
-            width: 720,
-            height: 900
+            width: 540,
+            height: 675
         },
     },
     {
         name: 'Burgundy',
         img: {
             src: 'burgundy.jpg',
-            width: 720,
-            height: 900
+            width: 540,
+            height: 675
         },
     },
     {
         name: 'Titanium',
         img: {
             src: 'titanium.jpg',
-            width: 720,
-            height: 900
+            width: 540,
+            height: 675
         },
     },
     {
         name: 'Charcoal',
         img: {
             src: 'charcoal.jpg',
-            width: 720,
-            height: 900
+            width: 540,
+            height: 675
         },
     },
     {
         name: 'Steel Grey',
         img: {
             src: 'steelGrey.jpg',
-            width: 720,
-            height: 900
+            width: 540,
+            height: 675
         },
     },
     {
         name: 'Black',
         img: {
             src: 'black.jpg',
-            width: 720,
-            height: 900
+            width: 540,
+            height: 675
         },
     },
     {
         name: 'Purple',
         img: {
             src: 'purple.jpg',
-            width: 720,
-            height: 900
+            width: 540,
+            height: 675
         },
     },
     {
         name: 'Olive',
         img: {
             src: 'olive.jpg',
-            width: 720,
-            height: 900
+            width: 540,
+            height: 675
         },
     },
     {
         name: 'Taupe',
         img: {
             src: 'taupe.jpg',
-            width: 720,
-            height: 900
+            width: 540,
+            height: 675
         },
     },
     {
         name: 'Golden',
         img: {
             src: 'golden.jpg',
-            width: 720,
-            height: 900
+            width: 540,
+            height: 675
         },
     },
     {
         name: 'Khaki',
         img: {
             src: 'khaki.jpg',
-            width: 720,
-            height: 900
+            width: 540,
+            height: 675
         },
     },
     {
         name: 'Camel',
         img: {
             src: 'camel.jpg',
-            width: 720,
-            height: 900
+            width: 540,
+            height: 675
         },
     },
     {
         name: 'Brown',
         img: {
             src: 'brown.jpg',
-            width: 720,
-            height: 900
+            width: 540,
+            height: 675
         },
     },
     {
         name: 'Basic Green',
         img: {
             src: 'basicGreen.jpg',
-            width: 720,
-            height: 900
+            width: 540,
+            height: 675
         },
     },
     {
         name: 'Championship Green',
         img: {
             src: 'championshipGreen.jpg',
-            width: 720,
-            height: 900
+            width: 540,
+            height: 675
         },
     },
     {
         name: 'Dark Green',
         img: {
             src: 'darkGreen.jpg',
-            width: 720,
-            height: 900
+            width: 540,
+            height: 675
         },
     },
     {
         name: 'Bottle Green',
         img: {
             src: 'bottleGreen.jpg',
-            width: 720,
-            height: 900
+            width: 540,
+            height: 675
         },
     },
     {
         name: 'English Green',
         img: {
             src: 'englishGreen.jpg',
-            width: 720,
-            height: 900
+            width: 540,
+            height: 675
         },
     },
     {
         name: 'Aztec',
         img: {
             src: 'aztec.jpg',
-            width: 720,
-            height: 900
+            width: 540,
+            height: 675
         },
     },
     {
         name: 'Brick',
         img: {
             src: 'brick.jpg',
-            width: 720,
-            height: 900
+            width: 540,
+            height: 675
         },
     },
     {
         name: 'Navy',
         img: {
             src: 'navy.jpg',
-            width: 720,
-            height: 900
+            width: 540,
+            height: 675
         },
     },
     {
         name: 'Wine',
         img: {
             src: 'wine.jpg',
-            width: 720,
-            height: 900
+            width: 540,
+            height: 675
         },
     },
     {
         name: 'Academy Blue',
         img: {
             src: 'academyBlue.jpg',
-            width: 720,
-            height: 900
+            width: 540,
+            height: 675
         },
     },
     {
         name: 'Euro Blue',
         img: {
             src: 'euroBlue.jpg',
-            width: 720,
-            height: 900
+            width: 540,
+            height: 675
         },
     },
     {
         name: 'Electric Blue',
         img: {
             src: 'electricBlue.jpg',
-            width: 720,
-            height: 900
+            width: 540,
+            height: 675
         },
     },
     {
         name: 'Bright Pink',
         img: {
             src: 'brightPink.jpg',
-            width: 720,
-            height: 900
+            width: 540,
+            height: 675
         },
     },
     {
         name: 'Bright Red',
         img: {
             src: 'brightRed.jpg',
-            width: 720,
-            height: 900
+            width: 540,
+            height: 675
         },
     },
     {
         name: 'Bright Orange',
         img: {
             src: 'brightOrange.jpg',
-            width: 720,
-            height: 900
+            width: 540,
+            height: 675
         },
     },
     {
         name: 'Bright Gold',
         img: {
             src: 'brightGold.jpg',
-            width: 720,
-            height: 900
+            width: 540,
+            height: 675
         },
     },
     {
         name: 'Bright Lime',
         img: {
             src: 'brightLime.jpg',
-            width: 720,
-            height: 900
+            width: 540,
+            height: 675
         },
     },
     {
         name: 'Bright White',
         img: {
             src: 'brightWhite.jpg',
-            width: 720,
-            height: 900
+            width: 540,
+            height: 675
         },
     },
     {
         name: 'Midnight Blue',
         img: {
             src: 'midnightBlue.jpg',
-            width: 720,
-            height: 900
+            width: 540,
+            height: 675
         },
     }
 ],
