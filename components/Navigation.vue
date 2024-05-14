@@ -191,29 +191,29 @@
           <div class="-my-6 divide-y divide-gray-500/10">
             <div class="space-y-2 py-6">
 
-              <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Features</a>
-              <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Marketplace</a>
-
+              <nuxt-link to="about-us" title="About Page" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">About Us</nuxt-link>
+              <nuxt-link to="used-tables" title="Used and Pre-owned Pool Tables" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Used Pool Tables</nuxt-link>
+              <!-- TODO: add contact CTA -->
               <div class="-mx-3">
-                <button type="button" class="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50" aria-controls="disclosure-2" aria-expanded="false">
+                <button @click="subMobileOpen = !subMobileOpen" type="button" class="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50" aria-controls="disclosure-2" aria-expanded="false">
                   Pool Table Services
                   <!--
                     Expand/collapse icon, toggle classes based on menu open state.
 
                     Open: "rotate-180", Closed: ""
                   -->
-                  <svg class="h-5 w-5 flex-none" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                  <svg :class="[subMobileOpen ? 'rotate-180' : '']" class="h-5 w-5 flex-none" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                     <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
                   </svg>
                 </button>
                 <!-- 'Company' sub-menu, show/hide based on menu state. -->
-                <div class="mt-2 space-y-2" id="disclosure-2">
+                <div v-show="subMobileOpen" class="mt-2 space-y-2" id="disclosure-2">
                   <nuxt-link v-for="service in services":to="service.link" :title="service.name" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50">{{ service.name }}</nuxt-link>
                 </div>
               </div>
             </div>
             <div class="py-6">
-              <a href="#" class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Cloth Gallery</a>
+              <nuxt-link to="cloth" title="Cloth Gallery" class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Cloth Gallery</nuxt-link>
             </div>
           </div>
         </div>
@@ -233,6 +233,7 @@ export default {
       smallFlyout: false,
       bigFlyout: false,
       mobileOpen: false,
+      subMobileOpen: true,
       services: [
         {
           name: 'Installation & Recovering',
