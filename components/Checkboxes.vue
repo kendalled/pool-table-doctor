@@ -1,7 +1,7 @@
 <template>
   <fieldset>
     <legend class="sr-only">Services</legend>
-    <label for="services" class="block text-sm font-semibold leading-6 text-gray-900 mb-4">Services</label>
+    <label class="block text-sm font-semibold leading-6 text-gray-900 mb-4">Services</label>
     <!-- todo: fix spacing -->
     <div id="services" class="space-y-2 grid md:grid-cols-2 gap-x-2 gap-y-2">
       <!-- start checkbox item-->
