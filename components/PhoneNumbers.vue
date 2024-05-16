@@ -4,7 +4,7 @@
       <p v-for="location in locationList" class="text-green-800">
         <span class="font-semibold">{{ location.name }}</span>
         <br />
-        {{ location.phone }}
+        <a class="hover:underline cursor-pointer" :href="'tel:' + location.trimmedPhone" :title="location.name + ' Phone Number'">{{ location.phone }}</a>
       </p>
     </div>
   </div>
@@ -17,15 +17,18 @@ export default {
       locationList: [
         {
           name: 'Orlando',
-          phone: '(407) 227-9533'
+          phone: '(407) 227-9533',
+          trimmedPhone: '4072279533'
         },
         {
           name: 'Daytona',
-          phone: '(407) 227-9533'
+          phone: '(407) 227-9533',
+          trimmedPhone: '4072279533'
         },
         {
           name: 'Melbourne',
-          phone: '(407) 227-9533'
+          phone: '(407) 227-9533',
+          trimmedPhone: '4072279533'
         },
         // {
         //   name: 'Jacksonville & St. Augustine',
@@ -33,7 +36,8 @@ export default {
         // },
         {
           name: 'Gainesville',
-          phone: '(352) 354-2460'
+          phone: '(352) 354-2460',
+          trimmedPhone: '3523542460'
         }
       ]
     }    

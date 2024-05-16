@@ -1,10 +1,10 @@
 <template>
   <div class="w-full max-w-7xl px-6 sm:px-8 mx-auto my-4">
     <div class="grid items-start h-full w-full md:grid-cols-10 gap-6">
-      <!-- todo: make logical col-spans -->
-      <div class="grid col-span-10 md:col-span-6 row-span-2" :class="gridItemClasses">
+      <!-- todo: make logical col-spans, remove pb-12 -->
+      <div class="grid col-span-10 md:col-span-6 row-span-2 pb-12" :class="gridItemClasses">
         <div class="self-start">
-          <p class="text-green-900 font-medium mb-4">Trust the Experts</p>
+          <p class="text-green-900 font-semibold mb-4">Trust the Experts</p>
           <p class="text-gray-700 text-lg font-medium mb-8">Are you having your pool table <span class="font-medium">set up</span>, <span class="font-medium">moved</span>, or <span class="font-medium">recovered</span>? Good news. You have come to the right place, we are the certified pool table experts!</p>
             <ul class="grid md:grid-cols-3">
               <li v-for="service in serviceList" class="flex items-center my-4 mx-1">
