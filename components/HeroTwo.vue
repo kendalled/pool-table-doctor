@@ -8,7 +8,7 @@
             <div class="container px-4 mx-auto">
               <div class="max-w-4xl mx-auto text-center">
                 <span class="text-gray-200 font-semibold uppercase tracking-widest">Experts since 1999</span>
-                <h2 class="mt-8 mb-6 text-2xl md:text-4xl lg:text-5xl font-bold text-gray-50">Pool table installations, moves, leveling, and repairs done right.</h2>
+                <h1 class="mt-8 mb-6 text-2xl md:text-4xl lg:text-5xl font-bold text-gray-50">Pool table installations, moves, leveling, and repairs done right.</h1>
                 <p class="max-w-3xl mx-auto mb-10 md:text-lg text-gray-100">
                   Count on the experts who've been perfecting the game since 1999. From installations, moves, and repairs, we're your Central Florida specialists for pool table perfection.
                 </p>

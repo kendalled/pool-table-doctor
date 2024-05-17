@@ -4,10 +4,10 @@
     <div class="mx-auto max-w-7xl px-6 py-16 sm:py-24 lg:px-8">
       <div class="pb-16 xl:flex xl:items-center xl:justify-between">
         <div>
-          <h1 class="text-4xl font-bold tracking-tight sm:text-5xl">
+          <h2 class="text-4xl font-bold tracking-tight sm:text-5xl">
             <span class="text-gray-900">The Pool Table Doctor Difference</span>
             <!-- <span class="text-green-600">$99 a month</span> -->
-          </h1>
+          </h2>
           <p class="mt-5 text-xl text-gray-500">Since 1999, we have expertly repaired and serviced tables all around Florida.</p>
         </div>
         <a href="#" class="mt-8 inline-flex w-full items-center justify-center rounded-md border border-transparent bg-green-700 px-5 py-3 text-base font-medium text-white hover:bg-green-800 sm:mt-10 sm:w-auto xl:mt-0">Get started today</a>
