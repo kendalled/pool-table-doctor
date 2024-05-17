@@ -3,8 +3,8 @@
     <nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
       <div class="flex lg:flex-1">
         <nuxt-link to="/" title="Home Page" class="-m-1.5 p-1.5">
-          <span class="sr-only">Your Company</span>
-          <img class="h-14 absolute top-[0.375rem] w-auto" src="/logo.png" alt="">
+          <span class="sr-only">The Pool Table Doctor</span>
+          <img class="h-14 absolute top-[0.375rem] w-auto" src="/logo.png" alt="The Pool Table Doctor Logo" title="The Pool Table Doctor Logo">
         </nuxt-link>
       </div>
       <div class="flex lg:hidden">
@@ -178,7 +178,7 @@
         <div class="flex items-center justify-between">
           <a href="#" class="-m-1.5 p-1.5">
             <span class="sr-only">The Pool Table Doctor</span>
-            <img class="h-8 w-auto" src="/logo.png" alt="The Pool Table Doctor Logo">
+            <img class="h-8 w-auto" src="/logo.png" alt="The Pool Table Doctor Logo" title="The Pool Table Doctor Logo">
           </a>
           <button @click="mobileOpen = false" type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700">
             <span class="sr-only">Close menu</span>
