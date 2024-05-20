@@ -6,15 +6,16 @@
       <div class="absolute inset-y-0 left-0 w-1/2 bg-gray-50"></div>
     </div>
     <div class="relative mx-auto max-w-7xl lg:grid lg:grid-cols-5">
-      <div class="bg-gradient-to-br from-green-700 to-green-800 px-6 py-16 lg:col-span-2 lg:px-8 lg:py-24 xl:pr-12">
+      <!-- TODO: was py-24 -->
+      <div class="bg-gradient-to-br from-green-700 to-green-800 px-6 py-16 lg:col-span-2 lg:px-8 lg:py-20 xl:pr-12">
         <div class="mx-auto max-w-lg">
-          <h2 class="text-2xl font-bold tracking-tight text-green-50 sm:text-3xl">Ready to get started?</h2>
+          <h2 class="text-2xl font-bold tracking-tight text-green-50 sm:text-3xl">Ready to schedule a service?</h2>
           <p class="mt-3 text-lg leading-8 text-green-100">Whether you need professional moving, precise leveling, expert refelting, seamless assembly, or careful disassembly, fill out the form to schedule your service and let us take care of the rest.</p>
           <dl class="mt-8 text-base text-green-100">
             <div>
               <dt class="sr-only">Postal address</dt>
               <dd>
-                <p>6566 University Blvd.</p>
+                <p>6564 University Blvd.</p>
                 <p>Winter Park, FL 32792</p>
               </dd>
             </div>
@@ -48,7 +49,7 @@
         </div>
         <!-- end google maps embed -->
       </div>
-      <div class="bg-white px-6 py-16 lg:col-span-3 lg:px-8 lg:py-24 xl:pl-12">
+      <div class="bg-white px-6 py-16 lg:col-span-3 lg:px-8 lg:py-20 xl:pl-12">
         <div class="mx-auto max-w-lg lg:max-w-none">
           <form name="Pool Table Doctor Request" method="POST" class="px-6 pb-24 pt-20 sm:pb-32 lg:px-8 lg:py-0" netlify>
             <input type="hidden" name="form-name" value="Pool Table Doctor Request" /> 

@@ -128,6 +128,7 @@
         <nuxt-link to="about-us" title="About Page" class="text-sm font-semibold leading-6 text-gray-900">About Us</nuxt-link>
 
         <div class="relative">
+          <!-- todo: sort out escape handler & tab indices -->
           <button type="button" @click.prevent="smallFlyout = !smallFlyout" class="flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900" aria-expanded="false">
             Pool Table Services
             <svg class="h-5 w-5 flex-none text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">

@@ -12,8 +12,8 @@
                 <p class="max-w-3xl mx-auto mb-10 md:text-lg text-gray-100">
                   Count on the experts who've been perfecting the game since 1999. From installations, moves, and repairs, we're your Central Florida specialists for pool table perfection.
                 </p>
-                <a class="inline-block w-full md:w-auto mb-4 md:mr-6 py-5 px-8 text-sm font-bold uppercase border-2 border-transparent bg-gray-200 rounded hover:bg-gray-100 text-gray-800 transition duration-200"
-                  href="#">Contact us for a quote</a>
+                <nuxt-link class="inline-block w-full md:w-auto mb-4 md:mr-6 py-5 px-8 text-sm font-bold uppercase border-2 border-transparent bg-gray-200 rounded hover:bg-gray-100 text-gray-800 transition duration-200"
+                  to="contact">Contact us for a quote</nuxt-link>
               </div>
             </div>
           </div>
