@@ -3,7 +3,7 @@
     <legend class="sr-only">Services</legend>
     <label class="block text-sm font-semibold leading-6 text-gray-900 mb-4">Services</label>
     <!-- todo: fix spacing -->
-    <div id="services" class="space-y-2 grid md:grid-cols-2 gap-x-2 gap-y-2">
+    <div id="services" class="grid md:grid-cols-2 gap-x-2 gap-y-4">
       <!-- start checkbox item-->
       <div v-for="service in serviceList" class="relative flex items-center">
         <div class="flex h-6 items-center">
@@ -24,36 +24,32 @@ export default {
     return {
       serviceList: [
         {
-          name: 'Move to New Location (Old Cloth)',
+          name: 'Moving Locations (Old Cloth)',
           id: 'move-reuse'
         },
         {
-          name: 'Move between rooms in house',
-          id: 'move-rooms'
+          name: 'Moving Locations (New Cloth)',
+          id: 'move-new'
         },
         {
-          name: 'Installation / Setup (new cloth)',
+          name: 'Installation / Setup (Old Cloth)',
+          id: 'setup-old'
+        },
+        {
+          name: 'Installation / Setup (New Cloth)',
           id: 'setup-new'
         },
         {
-          name: 'Dismantle / drop off at different location (no setup)',
-          id: 'dismantle-none'
+          name: 'Move Between Rooms in House',
+          id: 'move-rooms'
         },
         {
-          name: 'Cushion / Bumper replacement',
+          name: 'Cushion / Bumper Replacement',
           id: 'cushion-bumper'
         },
         {
           name: 'Re-level',
           id: 're-level'
-        },
-        {
-          name: 'Move to New Location (New Cloth)',
-          id: 'move-new'
-        },
-        {
-          name: 'Installation / Setup (old cloth)',
-          id: 'setup-old'
         },
         {
           name: 'Dismantle / Teardown',
@@ -66,6 +62,10 @@ export default {
         {
           name: 'Slate Crating',
           id: 'slate-crating'
+        },
+        {
+          name: 'Dismantle & Move (No Setup)',
+          id: 'dismantle-none'
         },
         {
           name: 'Other',
