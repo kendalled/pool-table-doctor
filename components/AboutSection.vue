@@ -5,7 +5,7 @@
   </div>
   <div class="mx-auto max-w-7xl px-6 lg:px-8">
     <div class="mx-auto max-w-2xl lg:mx-0">
-      <p class="text-lg font-semibold leading-8 tracking-tight text-green-700">Industry-leading service</p>
+      <p class="text-lg font-semibold leading-8 tracking-tight text-green-700">Industry-leading billiards service</p>
       <h1 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">About our company</h1>
       <p class="mt-6 text-xl leading-8 text-gray-700"><span class="font-semibold">The Pool Table Doctor</span> understands the value and importance of keeping your pool table at its best; therefore, we only use high-quality materials on all pool tables, no matter what.</p>
     </div>
