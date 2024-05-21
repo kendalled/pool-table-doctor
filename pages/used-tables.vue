@@ -9,7 +9,7 @@
     <div class="prose lg:prose-lg bg-white rounded-b-md w-full max-w-7xl px-6 sm:px-8 lg:px-12 py-6 sm:py-8 lg:py-10">
       <!-- TODO: consider text-4xl -->
       <h2>
-        Used table shopping doesn't have to be difficult.
+        Used pool table shopping doesn't have to be difficult.
       </h2>
       <p>
         The Pool Table Doctor carries a large selection of used / pre-owned pool tables and billiard tables. We do our best to make sure our selection is current and up to date on our website; however it is always a good idea to call about a particular pool table for availability.
@@ -65,7 +65,7 @@
         </li>
       </ul>
       <p>
-        Visit our <a href="https://pooltablestore.com/product-category/pre-owned/" target="_blank" title="Used and Pre-owned Pool Table Catalog">catalog</a> at The Pool Table Store to explore our diverse range of pre-owned pool tables. Whether you’re looking for a classic design or a modern style, we’ve got you covered!
+        Visit our <a href="https://pooltablestore.com/product-category/pre-owned/" target="_blank" title="Used and Pre-owned Pool Table Catalog">expansive inventory</a> at The Pool Table Store to explore our diverse range of pre-owned pool tables. Whether you’re looking for a classic design or a modern style, we’ve got you covered!
       </p>
       <h2>
         Our selection typically consists of brands such as:
