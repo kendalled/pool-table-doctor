@@ -3,7 +3,7 @@
   <div aria-label="Progress" class="bg-white rounded-b-md px-8 py-8">
     <h2 class="mb-6 text-2xl font-bold tracking-tight text-gray-900">Throughout the years</h2>
     <p class="mb-8 leading-7 text-gray-700">
-      Today, The Pool Table Doctor operates as a multi-regional pool table service company providing premium quality billiard services of all aspects to commercial and residential customers alike. In 2003, Pooltablestore.com was founded to service customers with billiard products and pool tables that can be shipped and serviced throughout the United States.
+      The Pool Table Doctor has stayed tried and true to our customers since we opened in 1994. Over the years, we have continued to provide top-quality pool table replacements and repairs. While we have changed our logo, our commitment to our customers has never wavered.
     </p>
     <div class="space-y-4 md:flex md:space-x-8 md:space-y-0">
       <span class="md:flex-1">

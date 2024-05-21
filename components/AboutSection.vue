@@ -38,8 +38,7 @@
         <p class="mt-8">Grant’s extensive knowledge of the billiard industry came from when he ran a high-volume service department for “The Rec Room” in Des Moines, Iowa.<br/><br/> For several years, he was responsible for training dozens of billiard technicians and overseeing thousands of pool tables and gaming installations, all while keeping up with the company’s day-to-day service department needs with remarkable success!</p>
         <h2 class="mt-16 text-2xl font-bold tracking-tight text-gray-900">Fast forward to 2024</h2>
         <p class="mt-6">Today, <span class="font-semibold">The Pool Table Doctor</span> operates as a multi-regional pool table service company providing premium quality billiard services of all aspects to commercial and residential customers alike. In 2003, <a class="underline" href="https://pooltablestore.com" title="The Pool Table Store Website">Pooltablestore.com</a> was founded to service customers with billiard products and pool tables that can be shipped and serviced throughout the U.S.</p>
-        <p class="mt-6">Today, <span class="font-semibold">The Pool Table Doctor</span> operates as a multi-regional pool table service. This is sample text to test the amount of space required to make.</p>
-        <p class="mt-6">Today, operates as a multi-regional pool table service. This is sample text to test the amount of space required to make.</p>
+        <p class="mt-6">The Pool Table Doctor has seen many changes since we first opened. Since then, our business has had many upgrades, including a new showroom, a dedicated repair center, and a team of experts trained to service billiard tables across Central Florida. From club houses to private homes, we can service your pool table anywhere, anytime.</p>
       </div>
     </div>
   </div>
