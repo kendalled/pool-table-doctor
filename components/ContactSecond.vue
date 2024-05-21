@@ -10,7 +10,7 @@
       <div class="bg-gradient-to-br from-green-700 to-green-800 px-6 py-16 lg:col-span-2 lg:px-8 lg:py-20 xl:pr-12">
         <div class="mx-auto max-w-lg">
           <h2 class="text-2xl font-bold tracking-tight text-green-50 sm:text-3xl">Ready to schedule a service?</h2>
-          <p class="mt-5 text-lg leading-8 text-green-100">Whether you need professional moving, precise leveling, expert refelting, seamless assembly, or careful disassembly, fill out the form to schedule your service and let us take care of the rest.</p>
+          <p class="mt-6 text-lg leading-8 text-green-100">Whether you need professional moving, precise leveling, expert refelting, seamless assembly, or careful disassembly, fill out the form to schedule your service and let us take care of the rest.</p>
           <dl class="mt-8 text-base text-green-100">
             <div>
               <dt class="sr-only">Postal address</dt>
