@@ -4,8 +4,8 @@
       <!-- todo: make logical col-spans, remove pb-12 -->
       <div class="grid col-span-10 md:col-span-6 row-span-2 pb-12" :class="gridItemClasses">
         <div class="self-start">
-          <p class="text-green-900 font-semibold mb-4">Trust the Experts</p>
-          <p class="text-gray-700 text-lg font-medium mb-8">Are you having your pool table <span class="font-medium">set up</span>, <span class="font-medium">moved</span>, or <span class="font-medium">recovered</span>? Good news. You have come to the right place, we are the certified pool table experts!</p>
+          <p class="text-green-900 font-semibold mb-4">Trust the Pool Table Experts</p>
+          <p class="text-gray-700 text-lg font-medium mb-8">Are you having your billiard table <span class="font-medium">set up</span>, <span class="font-medium">moved</span>, or <span class="font-medium">recovered</span>? Good news. You have come to the right place, we are the certified pool table experts!</p>
             <ul class="grid md:grid-cols-3">
               <li v-for="service in serviceList" class="flex items-center my-4 mx-1">
                 <svg class="h-6 w-6 opacity-90" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" version="1.0" width="32" height="32" viewBox="0 0 32 32" id="svg2">
@@ -36,15 +36,15 @@ export default {
     return {
       gridItemClasses: 'rounded-lg bg-gray-50 flex justify-center items-center p-6',
       serviceList: [
-        'Pool table moves',
-        'Pool table dismantling',
-        'Pool table installation',
-        'Pool table recovering',
-        'Billiard table setup',
-        'Bumper replacement',
-        'Pocket replacement',
-        'Cushion replacement',
-        'Slate crating'
+        'Pool Table Moves',
+        'Pool Table Dismantling',
+        'Pool Table Installation',
+        'Pool Table Recovering',
+        'Billiard Table Setup',
+        'Bumper Replacement',
+        'Pocket Replacement',
+        'Cushion Replacement',
+        'Slate Crating'
       ]
     }
   }
