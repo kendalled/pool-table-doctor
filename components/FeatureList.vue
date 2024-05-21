@@ -4,7 +4,7 @@
     <div class="mx-auto max-w-7xl px-6 py-16 sm:py-24 lg:px-8">
       <div class="pb-16 xl:flex xl:items-center xl:justify-between">
         <div>
-          <h2 class="text-4xl font-bold tracking-tight sm:text-5xl">
+          <h2 class="text-4xl font-bold tracking-tight sm:text-4xl">
             <span class="text-gray-900">The Pool Table Doctor Difference</span>
             <!-- <span class="text-green-600">$99 a month</span> -->
           </h2>
@@ -63,7 +63,7 @@ export default {
       consList: [
         'Wedges for leveling slate',
         'Leveled to standard specifications',
-        '$50 per flight of stairs',
+        'Extra cost per flight of stairs',
         '19 oz. cloth is standard',
         'Delivered in bed of pickup truck'
       ]
