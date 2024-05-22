@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-auto shadow-sm rounded-md max-w-7xl px-6 sm:px-8 py-6 w-full bg-gray-50">
+  <div class="mx-auto shadow-sm rounded-md max-w-7xl px-6 sm:px-8 py-8 w-full bg-gray-50">
     <h2 class="text-xl md:text-3xl font-bold text-green-900 mb-4">{{ label }}</h2>
     <p class="text-gray-700 mb-6 max-w-4xl">{{ desc }}</p>
     <!-- more layers of responsiveness -->
