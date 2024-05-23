@@ -10,6 +10,6 @@ export default defineNuxtConfig({
   }]
   ],
   routeRules: {
-    '/': { redirect: { to: '', statusCode: 301 } },
+    '/': { redirect: { to: '/', statusCode: 301 } },
   },
 })
