@@ -3,7 +3,7 @@
   <div class="mx-auto w-full max-w-7xl px-6 sm:px-8 mt-6">
     <div class="relative h-32 md:h-64 bg-cover bg-center rounded-t-md" style="background-image: url('poolBanner.png');">
       <div class="absolute inset-0 bg-gradient-to-r from-black/95 to-gray-900/45 bg-opacity-25 flex items-center justify-start pl-6 md:pl-12 rounded-t-md">
-        <h1 class="text-gray-50 text-3xl md:text-5xl font-bold flex flex-col md:gap-y-2">Pool Table Disassembly</h1>
+        <h1 class="text-gray-50 text-3xl md:text-5xl font-bold flex flex-col md:gap-y-2">Pool Table Slate Crating</h1>
       </div>
     </div>
     <div class="prose lg:prose-lg bg-white rounded-b-md w-full max-w-7xl px-6 sm:px-8 lg:px-12 py-6 sm:py-8 lg:py-10">
