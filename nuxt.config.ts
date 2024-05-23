@@ -8,5 +8,8 @@ export default defineNuxtConfig({
         Inter: '300..900'
       }
   }]
-  ]
+  ],
+  routeRules: {
+    '/': { redirect: { to: '', statusCode: 301 } },
+  },
 })
