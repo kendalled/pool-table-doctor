@@ -11,6 +11,7 @@
       <ContactSecond />
     </div>
     <CertificationList />
+    <LogoCloud />
     <FeatureList />
   </div>
 </template>
