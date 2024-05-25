@@ -1,5 +1,5 @@
 <template>
-  <!-- TODO: Universal formatting -->
+  <!-- TODO: Universal formatting, was px-6 -->
   <section class="bg-white rounded-md">
     <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-12">
         <div class="text-gray-500 sm:text-lg">
