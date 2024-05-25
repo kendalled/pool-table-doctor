@@ -1,8 +1,8 @@
 <template>
-  <!-- universal formatting -->
+  <!-- TODO: universal formatting -->
   <div class="mx-auto w-full max-w-7xl px-6 sm:px-8 mt-6">
     <ContentSection />
-    <div class="prose lg:prose-lg bg-white rounded-md w-full max-w-7xl px-6 sm:px-8 lg:px-12 py-6 sm:py-8 lg:py-10">
+    <div class="mt-6 prose lg:prose-lg bg-white rounded-md w-full max-w-7xl px-6 sm:px-8 lg:px-12 py-6 sm:py-8 lg:py-10">
       <!-- TODO: consider text-4xl -->
       <h1 class="!text-3xl">
         Pool Table Moving
