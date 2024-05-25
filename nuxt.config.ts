@@ -8,5 +8,12 @@ export default defineNuxtConfig({
         Inter: '300..900'
       }
   }]
-  ]
+  ],
+  app: {
+    head: {  
+      htmlAttrs: {
+        lang: 'en',
+      },
+    }
+  }
 })
