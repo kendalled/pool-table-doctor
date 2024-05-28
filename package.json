@@ -10,6 +10,7 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@nuxtjs/seo": "^2.0.0-rc.10",
     "@tailwindcss/forms": "^0.5.7",
     "click-outside-vue3": "^4.0.1",
     "nuxt": "^3.11.1",
