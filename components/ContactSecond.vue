@@ -43,9 +43,9 @@
             <a href="#" class="font-medium text-green-200 underline">View all job openings</a>.
           </p>
         </div>
-        <!-- start google maps embed -->
+        <!-- start google maps embed TODO: fix spacing to be uniform -->
         <div class="h-auto w-auto bg-green-900 rounded-md">
-          <iframe class="mt-20 lg:-mb-20 opacity-100 h-96 w-full rounded-md" title="Google Maps Embed" style="border:0" loading="lazy" allowfullscreen src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJGQ6d2spv54gRVU2RIhzlE3A&key=AIzaSyBh8zoTxTInRHEaMjnhRAt8IpNxnoqubbs"></iframe>
+          <iframe class="mt-16 lg:-mb-10 opacity-100 h-96 w-full rounded-md" title="Google Maps Embed" style="border:0" loading="lazy" allowfullscreen src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJGQ6d2spv54gRVU2RIhzlE3A&key=AIzaSyBh8zoTxTInRHEaMjnhRAt8IpNxnoqubbs"></iframe>
         </div>
         <!-- end google maps embed -->
       </div>

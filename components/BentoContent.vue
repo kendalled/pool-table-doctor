@@ -24,7 +24,8 @@
         </div>
       </div>
       <div class="col-span-10 md:col-span-4 row-span-2" :class="gridItemClasses">
-        <img src="/certs/pool-table-doctor-champ-certifications.jpg" alt="Pool Table Doctor Team's Certifications" title="Pool Table Doctor Team's Certifications" class="h-80 w-auto rounded-md shadow-lg object-cover">
+        <!-- <img src="/certs/pool-table-doctor-champ-certifications.jpg" alt="Pool Table Doctor Team's Certifications" title="Pool Table Doctor Team's Certifications" class="h-80 w-auto rounded-md shadow-lg object-cover"> -->
+        <SlideshowImage />
       </div>
     </div>
   </div>
