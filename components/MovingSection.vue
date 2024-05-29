@@ -4,20 +4,21 @@
     <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-0 lg:px-12">
         <div class="text-gray-500 sm:text-lg">
             <h2 class="mb-4 text-3xl md:text-4xl tracking-tight font-extrabold text-gray-900">Pool table moving done right.</h2>
+            <!-- used to say experienced team -->
             <p class="mb-4">
-              At The Pool Table Doctor, we make pool table moving hassle-free, whether it's within the same home or across the state. Our experienced team handles every detail with care and precision, ensuring your pool table is moved safely and efficiently.
+              At The Pool Table Doctor, we make pool table moving hassle-free, whether it's within the same home or across the state. Our expert team handles every detail with care and precision, ensuring your pool table is moved safely and efficiently.
             </p>
             <p class="mb-4">
               Trust us to manage your move, no matter the distance, with the highest level of professionalism.
             </p>
-            <p>Discover the seamless and professional service that sets us apart. Keep reading to learn how we can make your pool table moving experience effortless and efficient.</p>
+            <p>Discover the seamless and professional service that sets us apart. Keep reading to learn how we can make your pool table moving experience effortless.</p>
         </div>
         <div class="grid grid-cols-2 gap-4 mt-8">
             <img class="w-full rounded-lg object-cover aspect-[5120/7109]" src="/pool-table-moving.webp" alt="office content 1">
             <img class="mt-4 w-full lg:mt-10 rounded-lg object-cover aspect-[5120/7109]" src="/pool-table-doctor-vans.jpeg" alt="office content 2">
         </div>
     </div>
-    <div class="max-w-7xl px-6 sm:px-8 lg:px-12 w-full prose prose-lg">
+    <div class="max-w-7xl px-6 sm:px-8 lg:px-12 w-full prose prose-lg mt-6">
       <h3>
         Do you need your Pool Table moved to a new location?
       </h3>
