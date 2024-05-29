@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white py-24 sm:py-32">
+  <div class="bg-white py-24 sm:pt-20 sm:pb-24">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <div class="mx-auto max-w-2xl lg:max-w-none">
         <h2 class="text-lg font-semibold text-green-600">Industry leading repairs</h2>
