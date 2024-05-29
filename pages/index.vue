@@ -11,6 +11,7 @@
       <LazyContactSecond />
     </div>
     <CertificationList />
+    <AssemblyBasics />
     <LogoCloud />
     <FeatureList />
   </div>
