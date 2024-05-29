@@ -70,7 +70,7 @@
       <h2>
         Our selection typically consists of brands such as:
       </h2>
-      <ul class="grid grid-cols-3">
+      <ul class="grid sm:grid-cols-2 md:grid-cols-3">
         <li v-for="brand in brandList">
           {{ brand }}
         </li>
