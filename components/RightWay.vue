@@ -13,7 +13,7 @@
           </div>
           <p class="text-gray-700">
             Some inexperienced techs will rush through the job by simply recovering the table,
-            shaking your hand and they're gone. Some will think they are going the extra mile by
+            shaking your hand, and they're gone. Some will think they are going the extra mile by
             checking the levelness of the center of the table. Not good!
           </p>
         </div>
