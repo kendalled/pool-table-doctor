@@ -249,12 +249,8 @@ export default {
           link: 'bumper-replacement'
         },
         {
-          name: 'Dismantling',
-          link: 'dismantling'
-        },
-        {
-          name: 'Slate Crating',
-          link: 'crating'
+          name: 'Dismantling & Crating',
+          link: 'dismantling-crating'
         },
       ]
     }
