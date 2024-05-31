@@ -2,7 +2,7 @@
   <div>
     <!-- TODO: add titles and alts, fix hydration mismatch -->
     <div>
-      <img v-for="(image, index) in images" :key="index" :src="image" class="animate-fade-in mySlides h-80 w-auto rounded-md shadow-lg object-cover" :style="{ display: index === currentIndex ? 'block' : 'none', width: '100%' }" />
+      <img v-for="(image, index) in images" :key="index" :src="image.src" :alt="image.alt" :title="image.alt" class="animate-fade-in mySlides h-80 w-auto rounded-md shadow-lg object-cover" :style="{ display: index === currentIndex ? 'block' : 'none', width: '100%' }" />
     </div>
   </div>
 </template>
@@ -12,9 +12,18 @@ export default {
   data() {
     return {
       images: [
-        '/certs/pool-table-doctor-champ-certifications.jpg',
-        '/pool-table-doctor-vans.jpeg',
-        '/farmhouse-table.jpeg'
+        {
+          src: '/certs/pool-table-doctor-champ-certifications.jpg',
+          alt: 'The Pool Table Doctor staff getting their certifications.'
+        },
+        {
+          src: '/pool-table-doctor-vans.jpeg',
+          alt: 'Full fleet of The Pool Table Doctor vans.'
+        },
+        {
+          src: '/farmhouse-table.jpeg',
+          alt: 'Example of a repaired pool table.'
+        }
       ],
       currentIndex: 0,
       carouselInterval: null
