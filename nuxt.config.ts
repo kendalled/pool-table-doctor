@@ -7,7 +7,7 @@ export default defineNuxtConfig({
     }
 }], "@nuxtjs/seo"],
   site: {
-    url: 'https://pool-table-doctor.netlify.app',
+    url: 'https://pooltabledoctor.com',
     name: 'The Pool Table Doctor',
     description: 'The Pool Table Doctor has been happily serving Central Florida since 1994. We offer industry-leading pool table repairs, refelting, and more. Contact us today for a free quote, and find out why clients big and small trust The Pool Table Doctor.',
     defaultLocale: 'en', // not needed if you have @nuxtjs/i18n installed
