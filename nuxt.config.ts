@@ -15,6 +15,10 @@ export default defineNuxtConfig({
   gtag: {
     id: 'G-SD187W76SS'
   },
+  routeRules: {
+    '/used-and-pre-owned-pool-tables-for-sale': { redirect: { to: '/used-tables', statusCode: 301 } },
+    '/orlando': { redirect: { to: '/', statusCode: 301 } },
+  },
   app: {
     head: {  
       htmlAttrs: {
