@@ -6,7 +6,7 @@
             <h2 class="mb-4 text-3xl md:text-4xl tracking-tight font-extrabold text-gray-900">Pool table moving done right.</h2>
             <!-- used to say experienced team -->
             <p class="mb-4">
-              At The Pool Table Doctor, we make pool table moving hassle-free, whether it's within the same home or across the state. Our expert team handles every detail with care and precision, ensuring your pool table is moved safely and efficiently.
+              At The Pool Table Doctor, we make pool table moving hassle-free, whether it's within the same home or across Central Florida. Our expert team handles every detail with care and precision, ensuring your pool table is moved safely and efficiently.
             </p>
             <p class="mb-4">
               Trust us to manage your move, no matter the distance, with the highest level of professionalism.
