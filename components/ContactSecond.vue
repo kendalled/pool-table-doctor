@@ -39,8 +39,8 @@
             </div>
           </dl>
           <p class="mt-6 text-base text-green-300">
-            Looking for careers?
-            <a href="#" class="font-medium text-green-200 underline">View all job openings</a>.
+            Looking for used tables?
+            <nuxt-link to="/used-tables" title="Used and Pre-Owned Pool Tables" class="font-medium text-green-200 underline">View our selection.</nuxt-link>.
           </p>
         </div>
         <!-- start google maps embed TODO: fix spacing to be uniform -->
