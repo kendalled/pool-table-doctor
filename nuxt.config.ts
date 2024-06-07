@@ -19,6 +19,7 @@ export default defineNuxtConfig({
     '/used-and-pre-owned-pool-tables-for-sale': { redirect: { to: '/used-tables', statusCode: 301 } },
     '/used-and-pre-owned-pool-tables-for-sale.html': { redirect: { to: '/used-tables', statusCode: 301 } },
     '/orlando': { redirect: { to: '/', statusCode: 301 } },
+    '/orlando.html': { redirect: { to: '/', statusCode: 301 } },
   },
   app: {
     head: {  
