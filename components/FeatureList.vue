@@ -10,7 +10,7 @@
           </h2>
           <p class="mt-5 text-xl text-gray-500">Since 1994, we have expertly repaired and serviced tables all around Florida.</p>
         </div>
-        <a href="#" class="mt-8 inline-flex w-full items-center justify-center rounded-md border border-transparent bg-green-700 px-5 py-3 text-base font-medium text-white hover:bg-green-800 sm:mt-10 sm:w-auto xl:mt-0">Get started today</a>
+        <nuxt-link to="contact" title="Contact page" class="mt-8 inline-flex w-full items-center justify-center rounded-md border border-transparent bg-green-700 px-5 py-3 text-base font-medium text-white hover:bg-green-800 sm:mt-10 sm:w-auto xl:mt-0">Get started today</nuxt-link>
       </div>
       <div class="border-t border-gray-200 pt-16 xl:grid xl:grid-cols-3 xl:gap-x-8">
         <div>
