@@ -1,7 +1,7 @@
 <template>
   <div class="relative mt-8 flex flex-col justify-top overflow-hidden">
     <header class="w-full max-w-7xl px-6 sm:px-8 mx-auto">
-      <div class="bg-center bg-green-700 bg-cover rounded-xl"
+      <div class="bg-center bg-green-800 bg-cover rounded-xl"
         style="background-image: url('/slider6.jpeg');">
         <div class="flex rounded-xl items-center justify-center w-full h-full bg-gray-950 bg-opacity-55 py-12">
           <div class="text-center">
