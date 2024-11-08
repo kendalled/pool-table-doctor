@@ -1,6 +1,6 @@
 <template>
 <!-- TODO: make spacing proper -->
-<div class="sm:rounded-md overflow-hidden">
+<div class="sm:rounded-lg overflow-hidden">
   <div class="relative bg-white max-w-7xl mx-auto">
     <div class="absolute inset-0">
       <div class="absolute inset-y-0 left-0 w-1/2 bg-gray-50"></div>
@@ -52,7 +52,7 @@
       <div class="bg-white px-6 py-16 lg:col-span-3 lg:px-8 lg:py-20 xl:pl-12">
         <div class="mx-auto max-w-lg lg:max-w-none">
           <form name="Pool Table Doctor Request" method="POST" class="px-6 pb-24 pt-20 sm:pb-32 lg:px-8 lg:py-0" netlify>
-            <input type="hidden" name="form-name" value="Pool Table Doctor Request" /> 
+            <input type="hidden" name="form-name" value="Pool Table Doctor Request" />
             <div class="mx-auto max-w-xl lg:mx-0 lg:max-w-lg">
               <div class="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
                 <div>
