@@ -40,7 +40,7 @@
           </dl>
           <p class="mt-6 text-base text-green-300">
             Looking for used tables?
-            <nuxt-link to="/used-tables" title="Used and Pre-Owned Pool Tables" class="font-medium text-green-200 underline">View our selection.</nuxt-link>.
+            <nuxt-link to="/used-tables" title="Used and Pre-Owned Pool Tables" class="font-medium text-green-200 underline">View our selection</nuxt-link>.
           </p>
         </div>
         <!-- start google maps embed TODO: fix spacing to be uniform -->
@@ -54,6 +54,7 @@
           <form name="Pool Table Doctor Request" method="POST" class="px-6 pb-24 pt-20 sm:pb-32 lg:px-8 lg:py-0" netlify>
             <input type="hidden" name="form-name" value="Pool Table Doctor Request" />
             <div class="mx-auto max-w-xl lg:mx-0 lg:max-w-lg">
+              <h3 class="block text-2xl sm:text-3xl text-green-900 font-bold leading-6 mb-6 sm:mb-8">Schedule a Service</h3>
               <div class="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
                 <div>
                   <label for="first-name" class="block text-sm font-semibold leading-6 text-gray-900">First name</label>
