@@ -1,7 +1,7 @@
 <template>
   <div class="space-y-6 max-w-7xl px-6 sm:px-8 mt-6 w-full mx-auto">
     <ClothPicker :cloths="championshipCloth" prefix="/felt/championship/" label="Championship Cloths" desc="Championship Cloth is the standard for every home pool table. This felt brand is perfect for recreational use and lasts longer than normal budget cloths, making it much better than other companies' cheaper alternatives. Championship also provides many cloth colors to choose from, letting you express your vision on your table." />
-    <ClothPicker :cloths="simonisCloth" prefix="/felt/simonis/" label="Simonis Cloths" desc="Simonis Cloth is an alternative option for your pool tables that has a higher thread count. This cloth is the standard for competitive pool tables and players. With a wide variety of cloth colors to choose from, customizing your table in your images couldn’t be easier." />
+    <ClothPicker :cloths="simonisCloth" prefix="/felt/simonis/" label="Simonis Cloths" desc="Simonis Cloth is an alternative option for your pool tables that has a higher thread count. This cloth is the standard for competitive pool tables and players. With a wide variety of cloth colors to choose from, it has never been easier to take your pool table to tournament level. Try Simonis cloth to play like the pros." />
   </div>
 </template>
 
