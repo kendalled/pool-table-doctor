@@ -30,16 +30,8 @@
 
           <!-- 'Pool Table Services' flyout menu, show/hide based on flyout menu state. -->
 
-          <transition
-            name="flyout"
-            enter-active-class="transition ease-out duration-200"
-            enter-from-class="opacity-0 translate-y-1"
-            enter-to-class="opacity-100 translate-y-0"
-            leave-active-class="transition ease-in duration-150"
-            leave-from-class="opacity-100 translate-y-0"
-            leave-to-class="opacity-0 translate-y-1"
-          >
-          <div v-show="smallFlyout" v-click-outside="vcoConfig" class="absolute -left-8 top-full z-10 mt-3 w-56 rounded-xl bg-white p-2 shadow-lg ring-1 ring-gray-900/5">
+          <transition name="flyout">
+          <div v-show="smallFlyout" v-click-outside="vcoConfig" class="absolute -left-8 top-full z-10 mt-3 w-56 origin-top rounded-xl bg-white p-2 shadow-lg ring-1 ring-gray-900/5">
             <nuxt-link v-for="service in services":to="service.link" :title="service.name" class="block rounded-lg px-3 py-2 text-sm font-semibold leading-6 text-gray-900 hover:bg-gray-50">{{ service.name }}</nuxt-link>
           </div>
           </transition>
@@ -155,6 +147,12 @@ export default {
       }
     }
   },
+  mounted () {
+    window.addEventListener('keydown', this.onEscape)
+  },
+  beforeUnmount () {
+    window.removeEventListener('keydown', this.onEscape)
+  },
   watch: {
     path (newVal, oldVal) {
       if (newVal !== oldVal) {
@@ -165,9 +163,56 @@ export default {
     }
   },
   methods: {
+    onEscape (event) {
+      if (event.key === 'Escape' && this.smallFlyout) {
+        this.smallFlyout = false
+      }
+    },
     close () {
       this.smallFlyout = false
     }
   }
 }
 </script>
+
+<style scoped>
+.flyout-enter-active,
+.flyout-leave-active {
+  transition-property: transform, opacity;
+  will-change: transform, opacity;
+}
+
+.flyout-enter-active {
+  transition-duration: 200ms;
+  transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.flyout-leave-active {
+  transition-duration: 150ms;
+  transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.flyout-enter-from,
+.flyout-enter-from {
+  opacity: 0;
+  transform: translateY(4px) scale(0.98);
+}
+
+.flyout-enter-to,
+.flyout-leave-from {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+
+.flyout-leave-to {
+  opacity: 0;
+  transform: translateY(6px) scale(0.96);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .flyout-enter-active,
+  .flyout-leave-active {
+    transition: none;
+  }
+}
+</style>
