@@ -1,8 +1,8 @@
 <template>
   <div>
     <Head>
-      <Title>Pool Table Moves, Repairs, and Service Work</Title>
-      <Meta name="description" content="The Pool Table Doctor has been happily serving Central Florida since 1994. We offer industry-leading pool table repairs, refelting, and more. Contact us today for a free quote, and find out why clients big and small trust The Pool Table Doctor."/>
+      <Title>Orlando Pool Table Movers | Pool Table Doctor</Title>
+      <Meta name="description" content="Need reliable pool table movers in Orlando? We handle pool table moving, refelting, and installation across Greater Orlando with careful service and clear pricing." />
     </Head>
     <HeroTwo />
     <BentoContent class="my-9" />

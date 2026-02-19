@@ -3,12 +3,15 @@
   <section class="bg-white rounded-md py-10">
     <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-0 lg:px-12">
         <div class="text-gray-500 sm:text-lg">
-            <h2 class="mb-4 text-3xl md:text-4xl tracking-tight font-extrabold text-gray-900">Pool table installs made easy.</h2>
+            <h2 class="mb-4 text-3xl md:text-4xl tracking-tight font-extrabold text-gray-900">Professional Pool Table Installation in Orlando</h2>
             <p class="mb-4">
               At The Pool Table Doctor, we specialize in expert pool table installations, repairs, and maintenance. Our team of skilled professionals is dedicated to delivering top-notch service.
             </p>
             <p class="mb-4">
               We're small enough to provide personalized service, yet big enough to handle any job quickly and effectively.
+            </p>
+            <p class="mb-4">
+              We provide installation and setup service across Greater Orlando, including Orlando, Winter Park, Kissimmee, Altamonte Springs, and Sanford.
             </p>
             <p>Whether you're setting up a new pool table, recovering an old one, or need maintenance, we ensure the job is done right the first time. Our commitment to high-quality service guarantees your satisfaction.</p>
         </div>
