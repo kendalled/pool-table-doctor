@@ -45,7 +45,7 @@
         </div>
         <!-- start google maps embed TODO: fix spacing to be uniform -->
         <div class="h-auto w-auto bg-green-900 rounded-md">
-          <iframe class="mt-16 lg:-mb-10 opacity-100 h-96 w-full rounded-md" title="Google Maps Embed" style="border:0" loading="lazy" allowfullscreen src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJGQ6d2spv54gRVU2RIhzlE3A&key=AIzaSyBh8zoTxTInRHEaMjnhRAt8IpNxnoqubbs"></iframe>
+          <iframe class="mt-16 lg:-mb-10 opacity-100 h-96 w-full rounded-md" title="Google Maps Embed" style="border:0" loading="lazy" allowfullscreen src="https://www.google.com/maps?q=6564+University+Blvd,+Winter+Park,+FL+32792&output=embed"></iframe>
         </div>
         <!-- end google maps embed -->
       </div>
