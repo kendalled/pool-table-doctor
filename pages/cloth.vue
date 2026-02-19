@@ -1,5 +1,18 @@
 <template>
   <div class="space-y-6 max-w-7xl px-6 sm:px-8 mt-6 w-full mx-auto">
+    <Head>
+      <Title>Pool Table Felt Replacement in Orlando, FL | Pool Table Doctor</Title>
+      <Meta name="description" content="Pool table felt replacement in Orlando with Championship and Simonis options. Professional refelting, smooth play, and color choices." />
+    </Head>
+    <section class="bg-white rounded-md p-6 sm:p-8">
+      <h1 class="text-3xl md:text-4xl tracking-tight font-extrabold text-gray-900 mb-3">Pool Table Felt Replacement (Refelting) in Orlando</h1>
+      <p class="text-gray-600">
+        This service is for homeowners and businesses who want dependable cloth replacement, and professional stretching and leveling helps your table play smooth and true.
+      </p>
+      <p class="text-gray-600 mt-3">
+        We offer both Championship and Simonis cloth options. We have a wide variety of colors to choose from, so you can find the perfect one for your table.
+      </p>
+    </section>
     <ClothPicker :cloths="championshipCloth" prefix="/felt/championship/" label="Championship Cloths" desc="Championship Cloth is the standard for every home pool table. This felt brand is perfect for recreational use and lasts longer than normal budget cloths, making it much better than other companies' cheaper alternatives. Championship also provides many cloth colors to choose from, letting you express your vision on your table." />
     <ClothPicker :cloths="simonisCloth" prefix="/felt/simonis/" label="Simonis Cloths" desc="Simonis Cloth is an alternative option for your pool tables that has a higher thread count. This cloth is the standard for competitive pool tables and players. With a wide variety of cloth colors to choose from, it has never been easier to take your pool table to tournament level. Try Simonis cloth to play like the pros." />
   </div>
